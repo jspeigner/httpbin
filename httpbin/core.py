@@ -151,7 +151,7 @@ def view_user_agent():
 def view_get():
     """Returns GET Data."""
 
-    return jsonify(get_dict('url', 'args', 'headers', 'origin'))
+    return ''
 
 
 @app.route('/post', methods=('POST',))
